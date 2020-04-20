@@ -161,12 +161,4 @@ I did not add this example since I am not sure it is a fair comparison.
       });
     }, X, W);
 
-
-Here another surprise that range-v3 has to offer. Let me know if you think I should add this to the post.
-```cpp
-auto a = concat(ints(0,15), ints(0,15));
-auto b = repeat_n(ints(0,15), 2);
-std::cout << concat(a,b) << std::endl;
-```
-
 I also wrote a function with ranges that swaps the first and last dimension of an arbitrary tensor (n dimensional matrix). I did not include it in the rough draft since it is more of the same `drop`,`stride`,`chunk` that I've already shown in `transpose`.
