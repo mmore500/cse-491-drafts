@@ -11,8 +11,8 @@ I'll be using range-v3 because C++20's std::ranges does not include all the view
 All the code in this post is on [godbolt](https://godbolt.org/z/uMmq8f) if you'd like to take a closer look. If you want to compile on your own machine then you can get started with
 ```
 git clone https://github.com/xdaimon/ranges_blog
-git clone https://github.com/ericniebler/range-v3
 cd ranges_blog
+git clone https://github.com/ericniebler/range-v3
 ./build.sh && ./a.out
 ```
 
